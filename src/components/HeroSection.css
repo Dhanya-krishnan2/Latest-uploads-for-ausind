@@ -5,6 +5,13 @@ video {
   position: fixed;
   z-index: -1;
 }
+.heading-style{
+  background: black;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  
+}
 
 .hero-container {
    background: url('/images/solar.gif') center center/cover no-repeat; 

@@ -7,13 +7,20 @@ import Form from "./Form"
 function HeroSection() {
   return (
     <div className='hero-container'>
-      
+       
+       <h2 className='heading-style'>
+    
+       Power Your Home with Full Condidence
+
+       </h2>
+       
       
       <div class="home-ban-container">
-        <div class="home-ban-left"> <h1>Get Solar With</h1>
+        <div class="home-ban-left"> 
+        <h1>Get Solar With</h1>
         <h2>15 Years Warranty</h2>
       <p>Save on Electricity Bills with Solar Energy</p>
-      <div className='hero-btns'>
+      {/* <div className='hero-btns'> */}
     {/* <Button
           className='btns'
           buttonStyle='btn--outline'
@@ -21,22 +28,23 @@ function HeroSection() {
         >
           GET STARTED
         </Button> */}
-        <Button
+        {/* <Button
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
           onClick={console.log('hey')}
-        >
+        > */}
           {/* Cheack out for your services<i className='far fa-play-circle' /> */}
-          Read more
-        </Button>
-      </div></div>
+        
+        {/* </Button> */}
+      {/* </div> */}
+      </div>
       <div class="home-ban-right">
       <div class="home-form">
         <Form />
       </div></div>
       </div>
-     
+      
     </div>
   );
 }
