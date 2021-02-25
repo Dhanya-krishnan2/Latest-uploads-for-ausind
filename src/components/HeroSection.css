@@ -1,0 +1,140 @@
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.hero-container {
+   background: url('/images/solar.gif') center center/cover no-repeat; 
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;
+  align-items: center;*/
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.home-ban-container{
+  display:block;
+  float:left;
+  width:100%;
+ 
+}
+
+.home-ban-left,
+.home-ban-right{
+  display:block;
+  float:left;
+ 
+}
+
+.home-ban-left{
+  margin-left:30px;
+}
+
+.home-ban-left h1{
+  text-align:right;
+  color:#fff ! important;
+  font-size:60px ! important;
+  margin-top:100px;
+  font-weight:600 ! important;
+}
+
+.home-ban-left h2{
+  text-align:right;
+  color: rgb(252, 166, 7);
+  font-size:60px ! important;
+  margin-top:10px;
+  font-weight:600 ! important;
+}
+
+.home-ban-left p{
+  text-align:right;
+  color:#fff ! important;
+  font-size:30px ! important;
+  font-weight:200 ! important;
+  margin-top:20px;
+}
+
+.home-ban-left{
+width:50%;
+}
+
+
+.home-form{
+display:block;
+float:left;
+
+padding:30px;
+width:100%;
+margin-top:100px;
+margin-left:40px;
+height:350px;
+}
+
+.home-ban-right{
+  width:35%;
+  display:block;
+  float:left;
+  
+  }
+
+.hero-container > h1{
+  color:#fff;
+  font-size: 100px;
+  margin-top: -100px;
+}
+
+
+
+.hero-container > p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.hero-btns {
+  margin-top: 60px;
+  float:right;
+}
+
+.hero-btns .btn {
+  margin: 6px;
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+@media screen and (max-width: 960px) {
+  .hero-container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    font-size: 40px;
+    margin-top: -100px;
+  }
+
+  .hero-container > p {
+    font-size: 30px;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
