@@ -5,13 +5,16 @@ import HeroSection from '../HeroSection';
 
 import Footer from '../Footer';
 import VideoUpdate from './VideoUpdate.js';
+// import Addcards from '../SolarSelling.js';
+import MoreDeets from '../SolarSelling.js';
 // this page is to render home elements in the home page and adding each session in the order
 function Home() {
   return (
     <>
       <HeroSection />
       <VideoUpdate />
-      // <Cards />
+      <MoreDeets />
+      
       <Footer />
     </>
   );
