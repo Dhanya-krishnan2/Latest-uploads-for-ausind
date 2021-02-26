@@ -2,6 +2,7 @@ import React from 'react';
 import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
+import logo from "./logo.PNG";
 
 function Footer() {
   return (
@@ -63,10 +64,10 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-              Ausind
-              <i class='fab fa-typo3' />
-            </Link>
+          <Link to='/' className='navbar-logo' >
+            
+          <img src={logo} style={{width: 100, marginTop: -7} }/>
+        </Link>
           </div>
           <small class='website-rights'>Ausind © 2020</small>
           <div class='social-icons'>
