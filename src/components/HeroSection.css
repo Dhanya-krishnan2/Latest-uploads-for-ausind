@@ -5,7 +5,7 @@ video {
   position: fixed;
   z-index: -1;
 }
-.heading-style{
+.heading-stylefirst{
   background: black;
   color: #fff;
   align-items: center;
@@ -15,7 +15,7 @@ video {
 
 .hero-container {
    background: url('/images/solar.gif') center center/cover no-repeat; 
-  height: 100vh;
+  height: 60vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -40,14 +40,17 @@ video {
 }
 
 .home-ban-left{
-  margin-left:30px;
+  margin-left:10px;
+  margin-right: 30px;
 }
 
 .home-ban-left h1{
   text-align:right;
   color:#fff ! important;
   font-size:60px ! important;
-  margin-top:100px;
+  margin-top:80px;
+  margin-left: 10px;
+  /* margin-bottom: 100px; */
   font-weight:600 ! important;
 }
 
@@ -64,11 +67,12 @@ video {
   color:#fff ! important;
   font-size:30px ! important;
   font-weight:200 ! important;
-  margin-top:20px;
+  margin-top:50px;
 }
 
 .home-ban-left{
 width:50%;
+line-height: 150%;
 }
 
 

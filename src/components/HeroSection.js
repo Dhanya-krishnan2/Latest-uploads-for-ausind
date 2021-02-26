@@ -8,7 +8,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
        
-       <h2 className='heading-style'>
+       <h2 className='heading-stylefirst'>
     
        Power Your Home with Full Condidence
 
