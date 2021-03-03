@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// adding the card item as a propery paramether
+// 
+
 function CardItem(props) {
   return (
     <>

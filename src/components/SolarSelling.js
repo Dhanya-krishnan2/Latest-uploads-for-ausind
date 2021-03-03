@@ -1,7 +1,7 @@
 import React from "react";
 // import './Box.css';
 import { Card } from "react-bootstrap";
-// import 'SolarCardStyle.css';
+//  import 'SolarCardStyle.css';
 
 
 const MoreDeets = () => {
@@ -19,14 +19,7 @@ const MoreDeets = () => {
       title: "Solar",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas tellus rutrum tellus pellentesque. Amet commodo nulla facilisi nullam. Id aliquet risus feugiat in ante metus. Tellus elementum sagittis vitae et. Arcu risus quis varius quam quisque id diam vel. Porttitor rhoncus dolor purus non enim praesent elementum facilisis leo. Congue eu consequat ac felis donec et. Donec pretium vulputate sapien nec sagittis aliquam. Malesuada fames ac turpis egestas integer eget aliquet nibh. At tellus at urna condimentum mattis. Sagittis aliquam malesuada bibendum arcu vitae elementum rdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Dui nunc mattis enim ut tellus elementum. Condimentum vitae sapien pellentesque habitant morbi tristique senectus.",
     },
-    {
-      image:
-        "",
-      title: "Solar",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas tellus rutrum tellus pellentesque. Amet commodo nulla facilisi nullam. Id aliquet risus feugiat in ante metus. Tellus elementum sagittis vitae et. Arcu risus quis varius quam quisque id diam vel. Porttitor rhoncus dolor purus non enim praesent elementum facilisis leo. Congue eu consequat ac felis donec et. Donec pretium vulputate sapien nec sagittis aliquam. Malesuada fames ac turpis egestas integer eget aliquet nibh. At tellus at urna condimentum mattis. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur",
- 
-    
-    },
+   
     
     {
       image: "https://i.insider.com/50f967f56bb3f7830a000019",

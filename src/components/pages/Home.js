@@ -7,14 +7,16 @@ import Footer from '../Footer';
 import VideoUpdate from './VideoUpdate.js';
 // import Addcards from '../SolarSelling.js';
 import MoreDeets from '../SolarSelling.js';
+// import CardGridExt from '../CardGridExt.js';
+// import CardGridExt from '../CardGridExt.js';
 // this page is to render home elements in the home page and adding each session in the order
 function Home() {
   return (
     <>
       <HeroSection />
-      <VideoUpdate />
-      <MoreDeets />
-      
+       <VideoUpdate />
+       
+           <MoreDeets />
       <Footer />
     </>
   );
